@@ -1,0 +1,56 @@
+/* Write CSS here */
+.div {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(190, 247, 202);
+  }
+.card {
+  height: 250px;
+  width: 250px;
+  box-shadow: 2px 10px 10px 5px #372c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(249, 245, 245);
+}
+.heading {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.watch {
+  height: 30px;
+}
+.time {
+  font-size: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+button {
+  height: 30px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
+.start {
+  background-color: #1db05f;
+}
+.reset {
+  background-color: #eaa800;
+}
+.stop {
+  background-color: #ef0d36;
+}
